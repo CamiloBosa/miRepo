@@ -1,0 +1,172 @@
+*{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Contenido{
+    width: 100%;
+    height: 100%;
+}
+
+.Navegacion{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.barra{
+    display: flex;
+    background-color: white;
+    height: 80%;
+    width: 98%;
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    
+}
+
+.barra_uno{
+    display: flex;
+    background-color: white;
+    height: 65%;
+    width: 20%;
+    padding:1%;
+    justify-content: center;
+}
+
+.cuadrado{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.imagen_uno{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+.inicio,.inicio a{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.barra_dos{
+    display: flex;
+    background-color: white;
+    height: 62%;
+    width: 65%;
+    padding: 1%;
+    justify-content: center;
+}
+
+.barra_dos input{
+    width: 100%;
+    height: 100%;
+    font-size:medium;
+    border: none;
+    text-align: left;
+    padding-left: 50%;
+    overflow-wrap:break-word;
+    background-color: rgb(236, 236, 236);
+}
+.barra_dos input:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.barra_tres{
+    background-color: white;
+    display: flex;
+    height: 65%;
+    width: 15%;
+    padding: 1%;
+    justify-content: center;
+}
+
+.imagen_dos{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.imagen_tres{
+    display: flex;
+    height: 70%;
+    width: 80%;
+    align-items:end;
+    border-radius: 50%;
+    justify-self: center;
+    align-self:center;
+}
+
+.barra_dos input{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 0%;
+}
+/*Acá empieza el conjunto de imágenes*/
+.Conjunto{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white
+}
+
+.conjunto_uno{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.pintura{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 20%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.pintura img{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
