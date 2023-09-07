@@ -1,0 +1,11 @@
+.custom-card-col {
+    flex: 25%;
+    max-width: 25%;  
+}
+
+.rickandmorty{
+    display: flex;
+    height: 4%;
+    width: 4%;
+    border-radius: 180px;
+} 

@@ -1,0 +1,5 @@
+.custom-card-col{
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
